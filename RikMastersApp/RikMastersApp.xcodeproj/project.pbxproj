@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		827A0E512DDB75A4004152BD /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 827A0E502DDB75A4004152BD /* RxSwift */; };
+		827A0FA52DDCCE1D004152BD /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827A0F9D2DDCCE1D004152BD /* NetworkService.swift */; };
+		827A0FA62DDCCE1D004152BD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827A0F9A2DDCCE1D004152BD /* User.swift */; };
+		827A0FA72DDCCE1D004152BD /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827A0F982DDCCE1D004152BD /* File.swift */; };
+		827A0FA82DDCCE1D004152BD /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827A0F9C2DDCCE1D004152BD /* DataManager.swift */; };
+		827A0FA92DDCCE1D004152BD /* Statistic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827A0F992DDCCE1D004152BD /* Statistic.swift */; };
+		827A0FBF2DDCD3B9004152BD /* PinLayout in Frameworks */ = {isa = PBXBuildFile; productRef = 827A0FBE2DDCD3B9004152BD /* PinLayout */; };
+		827A0FC22DDCD55A004152BD /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 827A0FC12DDCD55A004152BD /* RealmSwift */; };
+		827A0FD42DDCF4C4004152BD /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = 827A0FD32DDCF4C4004152BD /* DGCharts */; };
+		827A0FD82DDCF995004152BD /* RealmFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827A0FD72DDCF995004152BD /* RealmFile.swift */; };
+		827A0FDC2DDCF9B1004152BD /* RealmStatistic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827A0FDB2DDCF9B1004152BD /* RealmStatistic.swift */; };
+		827A0FE02DDCF9C6004152BD /* RealmUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827A0FDF2DDCF9C6004152BD /* RealmUser.swift */; };
+		827A0FE42DDD0F5F004152BD /* UsersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827A0FE32DDD0F5F004152BD /* UsersResponse.swift */; };
+		827A0FEA2DDD0F6E004152BD /* StatisticsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827A0FE92DDD0F6E004152BD /* StatisticsResponse.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		827A0D412DDB532A004152BD /* RikMastersApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RikMastersApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		827A0F982DDCCE1D004152BD /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		827A0F992DDCCE1D004152BD /* Statistic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistic.swift; sourceTree = "<group>"; };
+		827A0F9A2DDCCE1D004152BD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		827A0F9C2DDCCE1D004152BD /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		827A0F9D2DDCCE1D004152BD /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		827A0F9F2DDCCE1D004152BD /* RikMastersCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RikMastersCore.h; sourceTree = "<group>"; };
+		827A0FA12DDCCE1D004152BD /* RikMastersCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = RikMastersCore.xcodeproj; sourceTree = "<group>"; };
+		827A0FD72DDCF995004152BD /* RealmFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmFile.swift; sourceTree = "<group>"; };
+		827A0FDB2DDCF9B1004152BD /* RealmStatistic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmStatistic.swift; sourceTree = "<group>"; };
+		827A0FDF2DDCF9C6004152BD /* RealmUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmUser.swift; sourceTree = "<group>"; };
+		827A0FE32DDD0F5F004152BD /* UsersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersResponse.swift; sourceTree = "<group>"; };
+		827A0FE92DDD0F6E004152BD /* StatisticsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsResponse.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		827A0D532DDB532E004152BD /* Exceptions for "RikMastersApp" folder in "RikMastersApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 827A0D402DDB532A004152BD /* RikMastersApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		827A0D432DDB532A004152BD /* RikMastersApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				827A0D532DDB532E004152BD /* Exceptions for "RikMastersApp" folder in "RikMastersApp" target */,
+			);
+			path = RikMastersApp;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		827A0D3E2DDB532A004152BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				827A0FC22DDCD55A004152BD /* RealmSwift in Frameworks */,
+				827A0FBF2DDCD3B9004152BD /* PinLayout in Frameworks */,
+				827A0FD42DDCF4C4004152BD /* DGCharts in Frameworks */,
+				827A0E512DDB75A4004152BD /* RxSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		827A0D382DDB532A004152BD = {
+			isa = PBXGroup;
+			children = (
+				827A0FA22DDCCE1D004152BD /* RikMastersCore */,
+				827A0D432DDB532A004152BD /* RikMastersApp */,
+				827A0D422DDB532A004152BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		827A0D422DDB532A004152BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				827A0D412DDB532A004152BD /* RikMastersApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		827A0F9B2DDCCE1D004152BD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				827A0F982DDCCE1D004152BD /* File.swift */,
+				827A0F992DDCCE1D004152BD /* Statistic.swift */,
+				827A0F9A2DDCCE1D004152BD /* User.swift */,
+				827A0FD72DDCF995004152BD /* RealmFile.swift */,
+				827A0FDB2DDCF9B1004152BD /* RealmStatistic.swift */,
+				827A0FDF2DDCF9C6004152BD /* RealmUser.swift */,
+				827A0FE32DDD0F5F004152BD /* UsersResponse.swift */,
+				827A0FE92DDD0F6E004152BD /* StatisticsResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		827A0F9E2DDCCE1D004152BD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				827A0F9C2DDCCE1D004152BD /* DataManager.swift */,
+				827A0F9D2DDCCE1D004152BD /* NetworkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		827A0FA02DDCCE1D004152BD /* RikMastersCore */ = {
+			isa = PBXGroup;
+			children = (
+				827A0F9B2DDCCE1D004152BD /* Models */,
+				827A0F9E2DDCCE1D004152BD /* Services */,
+				827A0F9F2DDCCE1D004152BD /* RikMastersCore.h */,
+			);
+			path = RikMastersCore;
+			sourceTree = "<group>";
+		};
+		827A0FA22DDCCE1D004152BD /* RikMastersCore */ = {
+			isa = PBXGroup;
+			children = (
+				827A0FA02DDCCE1D004152BD /* RikMastersCore */,
+				827A0FA12DDCCE1D004152BD /* RikMastersCore.xcodeproj */,
+			);
+			path = RikMastersCore;
+			sourceTree = "<group>";
+		};
+		827A0FA32DDCCE1D004152BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		827A0D402DDB532A004152BD /* RikMastersApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 827A0D542DDB532E004152BD /* Build configuration list for PBXNativeTarget "RikMastersApp" */;
+			buildPhases = (
+				827A0D3D2DDB532A004152BD /* Sources */,
+				827A0D3E2DDB532A004152BD /* Frameworks */,
+				827A0D3F2DDB532A004152BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				827A0D432DDB532A004152BD /* RikMastersApp */,
+			);
+			name = RikMastersApp;
+			packageProductDependencies = (
+				827A0E502DDB75A4004152BD /* RxSwift */,
+				827A0FBE2DDCD3B9004152BD /* PinLayout */,
+				827A0FC12DDCD55A004152BD /* RealmSwift */,
+				827A0FD32DDCF4C4004152BD /* DGCharts */,
+			);
+			productName = RikMastersApp;
+			productReference = 827A0D412DDB532A004152BD /* RikMastersApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		827A0D392DDB532A004152BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					827A0D402DDB532A004152BD = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 827A0D3C2DDB532A004152BD /* Build configuration list for PBXProject "RikMastersApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 827A0D382DDB532A004152BD;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				827A0E4F2DDB75A4004152BD /* XCRemoteSwiftPackageReference "RxSwift" */,
+				827A0FBD2DDCD3B9004152BD /* XCRemoteSwiftPackageReference "PinLayout" */,
+				827A0FC02DDCD55A004152BD /* XCRemoteSwiftPackageReference "realm-swift" */,
+				827A0FD22DDCF4C4004152BD /* XCRemoteSwiftPackageReference "Charts" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 827A0D422DDB532A004152BD /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 827A0FA32DDCCE1D004152BD /* Products */;
+					ProjectRef = 827A0FA12DDCCE1D004152BD /* RikMastersCore.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				827A0D402DDB532A004152BD /* RikMastersApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		827A0D3F2DDB532A004152BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		827A0D3D2DDB532A004152BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				827A0FE02DDCF9C6004152BD /* RealmUser.swift in Sources */,
+				827A0FA52DDCCE1D004152BD /* NetworkService.swift in Sources */,
+				827A0FA62DDCCE1D004152BD /* User.swift in Sources */,
+				827A0FA72DDCCE1D004152BD /* File.swift in Sources */,
+				827A0FDC2DDCF9B1004152BD /* RealmStatistic.swift in Sources */,
+				827A0FEA2DDD0F6E004152BD /* StatisticsResponse.swift in Sources */,
+				827A0FA82DDCCE1D004152BD /* DataManager.swift in Sources */,
+				827A0FD82DDCF995004152BD /* RealmFile.swift in Sources */,
+				827A0FA92DDCCE1D004152BD /* Statistic.swift in Sources */,
+				827A0FE42DDD0F5F004152BD /* UsersResponse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		827A0D552DDB532E004152BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 265GKHT32M;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RikMastersApp",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RikMastersApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RikMastersApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		827A0D562DDB532E004152BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 265GKHT32M;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RikMastersApp",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RikMastersApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RikMastersApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		827A0D572DDB532E004152BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		827A0D582DDB532E004152BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		827A0D3C2DDB532A004152BD /* Build configuration list for PBXProject "RikMastersApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				827A0D572DDB532E004152BD /* Debug */,
+				827A0D582DDB532E004152BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		827A0D542DDB532E004152BD /* Build configuration list for PBXNativeTarget "RikMastersApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				827A0D552DDB532E004152BD /* Debug */,
+				827A0D562DDB532E004152BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		827A0E4F2DDB75A4004152BD /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = exactVersion;
+				version = 6.9.0;
+			};
+		};
+		827A0FBD2DDCD3B9004152BD /* XCRemoteSwiftPackageReference "PinLayout" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/layoutBox/PinLayout";
+			requirement = {
+				kind = exactVersion;
+				version = 1.10.5;
+			};
+		};
+		827A0FC02DDCD55A004152BD /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = exactVersion;
+				version = 10.45.0;
+			};
+		};
+		827A0FD22DDCF4C4004152BD /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ChartsOrg/Charts";
+			requirement = {
+				kind = exactVersion;
+				version = 5.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		827A0E502DDB75A4004152BD /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 827A0E4F2DDB75A4004152BD /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		827A0FBE2DDCD3B9004152BD /* PinLayout */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 827A0FBD2DDCD3B9004152BD /* XCRemoteSwiftPackageReference "PinLayout" */;
+			productName = PinLayout;
+		};
+		827A0FC12DDCD55A004152BD /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 827A0FC02DDCD55A004152BD /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		827A0FD32DDCF4C4004152BD /* DGCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 827A0FD22DDCF4C4004152BD /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = DGCharts;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 827A0D392DDB532A004152BD /* Project object */;
+}
